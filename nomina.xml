@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cfdi:Comprobante xmlns:cfdi="http://www.sat.gob.mx/cfd/3"  version="3.2" folio="721" fecha="2014-01-03T13:32:17" tipoDeComprobante="egreso" formaDePago="PAGO EN UNA SOLA EXHIBICIÓN" metodoDePago="Efectivo" noCertificado="00001000000301234004" subTotal="100" descuento="52.21" motivoDescuento="Deduciones nómina" total="47.79" Moneda="MX" LugarExpedicion="México" certificado="MIIEezCCA2OgAwIBAgIUMDAwMDEwMDAwMDAzMDEyMzQwMDQwDQYJKoZIhvcNAQEFBQAwggGKMTgwNgYDVQQDDC9BLkMuIGRlbCBTZXJ2aWNpbyBkZSBBZG1pbmlzdHJhY2nDs24gVHJpYnV0YXJpYTEvMC0GA1UECgwmU2VydmljaW8gZGUgQWRtaW5pc3RyYWNpw7NuIFRyaWJ1dGFyaWExODA2BgNVBAsML0FkbWluaXN0cmFjacOzbiBkZSBTZWd1cmlkYWQgZGUgbGEgSW5mb3JtYWNpw7NuMR8wHQYJKoZIhvcNAQkBFhBhY29kc0BzYXQuZ29iLm14MSYwJAYDVQQJDB1Bdi4gSGlkYWxnbyA3NywgQ29sLiBHdWVycmVybzEOMAwGA1UEEQwFMDYzMDAxCzAJBgNVBAYTAk1YMRkwFwYDVQQIDBBEaXN0cml0byBGZWRlcmFsMRQwEgYDVQQHDAtDdWF1aHTDqW1vYzEVMBMGA1UELRMMU0FUOTcwNzAxTk4zMTUwMwYJKoZIhvcNAQkCDCZSZXNwb25zYWJsZTogQ2xhdWRpYSBDb3ZhcnJ1YmlhcyBPY2hvYTAeFw0xMzExMDYxNjEwNTZaFw0xNzExMDYxNjEwNTZaMIHHMSMwIQYDVQQDExpJTVBSRVNPUyBERSBDQUJFUiBTQSBERSBDVjEjMCEGA1UEKRMaSU1QUkVTT1MgREUgQ0FCRVIgU0EgREUgQ1YxIzAhBgNVBAoTGklNUFJFU09TIERFIENBQkVSIFNBIERFIENWMSUwIwYDVQQtExxJQ0EwNTA0MjJBQTYgLyBDQUxJNjYxMDEwVUI4MR4wHAYDVQQFExUgLyBDQUxJNjYxMDEwTUpDU1JSMDIxDzANBgNVBAsTBk1BVFJJWjCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEApGE7hoV8JMvYK2gxjniszb5yiy8WyvEzUN04H8EtaTzN5NGHLksKSDr8/PSOaxsimId8wxXfaFbKf6Bp7iYzeQJMRZg/s8147mNZBXmkSF4iGQTxeTjBuF04LddVW/aPDThaGR6dM7DxgvNSjL7NmiDhV4TzicQ/sVELwqp+lyUCAwEAAaMdMBswDAYDVR0TAQH/BAIwADALBgNVHQ8EBAMCBsAwDQYJKoZIhvcNAQEFBQADggEBAIkon+oqBvZ8U5g7VpFpDgzUaW8ThsfIOBz1m5aWmhiplIjJghm6Kx2bsq2/sOAQz0dxhVvRa28QR6mcv8VdeQxXXq5xu/FnH9NdbXIynms9gXLePyacUquXP0lbIqlihSTr0qZTwsq9YFkS+G80kw8waQYG/VUZNw3h4+8rtnwPV0QLM0I5kN+O3C9mwKZLYiUDtU0O7iwsiNuhklUxWKaLHzlvRa5SNpvYfosTyRugr2fVVQRzNYSN/Oxtpo2y9LC7jSQNlKgAHFW8wQbiIjTAkL/JGXnfe/EigSxxdSixIX0BcqT8sWQbPrTuYDHkJZxLn78pR657V7p3ezx8pYM=" sello="WzlXx5P1BlQ1I0Z0jgfdbWacVrHsk/ucnlsjxjjhsj+8z4rWWyoII/g/9F889KrDo21N0uyl7ielaKQi34ZafwODHrHWvlslBgy5tlxVlDbKdBz4DFR5plR9R2eoMXdmLwba6E1tlNHv4aYUOBrg7GsPZrZ0MWJzJTvFuMC+5Fk=">
+
+<cfdi:Emisor rfc="ICA050422AA6" nombre="Impresos de Caber S.A. de C.V."><cfdi:DomicilioFiscal calle="San Juan" noExterior="76" colonia="Tepeyac" municipio="Zapopan" estado="Jalisco" pais="México" codigoPostal="45150"/><cfdi:RegimenFiscal Regimen="Pequeño contribuyente"/>
+</cfdi:Emisor>
+
+<cfdi:Receptor rfc="MAMP830101DP6" nombre="Pedro Marmol"/>
+
+<cfdi:Conceptos>
+	<cfdi:Concepto cantidad="1" descripcion="PAGO DE NOMINA" valorUnitario="47.79" unidad="Servicio" importe="47.79"/>
+</cfdi:Conceptos>
+
+<cfdi:Impuestos totalImpuestosRetenidos="0.0" totalImpuestosTrasladados="0">
+	<cfdi:Retenciones>
+		<cfdi:Retencion impuesto="ISR" importe="0.0"/>
+	</cfdi:Retenciones>
+</cfdi:Impuestos>
+
+<cfdi:Complemento>
+<nomina:Nomina xmlns:nomina="http://www.sat.gob.mx/nomina" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sat.gob.mx/nomina http://www.sat.gob.mx/sitio_internet/cfd/nomina/nomina11.xsd" Version="1.1" RegistroPatronal="REGISTROPATRONAL" NumEmpleado="32" CURP="MAMP830101HJCRRD05" TipoRegimen="1" NumSeguridadSocial="354545" FechaPago="2014-01-03" FechaInicialPago="2014-01-01" FechaFinalPago="2014-01-15" NumDiasPagados="15" Departamento="Cocina" CLABE="452632512548752351" Banco="002" FechaInicioRelLaboral="2013-11-03" Antiguedad="4" Puesto="cocinero" TipoContrato="base" TipoJornada="mixta" PeriodicidadPago="quincenal" SalarioBaseCotApor="125.021" RiesgoPuesto="1" SalarioDiarioIntegrado="125.021">
+
+		<nomina:Percepciones TotalGravado="0" TotalExento="100">
+			<nomina:Percepcion TipoPercepcion="001" Clave="001" Concepto="pago de la quincena" ImporteGravado="0.00" ImporteExento="100.00"/>
+		</nomina:Percepciones>
+
+		<nomina:Deducciones TotalGravado="0" TotalExento="52.21">
+			<nomina:Deduccion TipoDeduccion="001" Clave="001" Concepto="IMSS" ImporteGravado="0.0" ImporteExento="52.21"/>
+		</nomina:Deducciones>
+	</nomina:Nomina>
+</cfdi:Complemento>
+
+</cfdi:Comprobante>
